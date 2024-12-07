@@ -1,0 +1,30 @@
+{
+  "name": "router",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "vite --port=5173",
+    "build": "vite build",
+    "serve": "vite preview",
+    "start": "vite"
+  },
+  "devDependencies": {    
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@tanstack/router-plugin": "^1.86.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "vite": "^6.0.3",
+    "vite-plugin-node-polyfills": "^0.22.0"
+  },
+  "dependencies": {
+    "@acme/auth": "workspace:*",
+    "@tanstack/react-router": "^1.86.1",
+    "@tanstack/router-devtools": "^1.86.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
