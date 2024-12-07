@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "better-auth": "^1.0.10",
-    "better-sqlite3": "^11.6.0"
+    "@libsql/kysely-libsql": "^0.4.1"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.12",
